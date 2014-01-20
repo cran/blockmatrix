@@ -1,0 +1,17 @@
+\name{names.blockmatrix}
+\alias{names}
+\alias{names.blockmatrix}
+\title{\code{names} S3 method for \code{blockmatrix} object}
+\usage{
+  \method{names}{blockmatrix} (x)
+}
+\arguments{
+  \item{x}{a \code{blockmatrix} object}
+}
+\description{
+  \code{names} S3 method for \code{blockmatrix} object
+}
+\author{
+  Emanuele Cordano
+}
+

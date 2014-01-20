@@ -1,0 +1,28 @@
+\name{value<-}
+\alias{value<-}
+\alias{value<-.blockmatrix}
+\alias{value<-.default}
+\title{\code{value<-} S3 Replacement method for \code{blockmatrix} object}
+\usage{
+  value(M) <- value
+
+  \method{value}{default} (M) <- value
+
+  \method{value}{blockmatrix} (M) <- value
+}
+\arguments{
+  \item{M}{a \code{blockmatrix} object}
+
+  \item{value}{object replaced matrix}
+}
+\value{
+  Replaces \code{M$value} with a new matrix \code{value}
+}
+\description{
+  \code{value<-} S3 Replacement method for
+  \code{blockmatrix} object
+}
+\author{
+  Emanuele Cordano
+}
+
